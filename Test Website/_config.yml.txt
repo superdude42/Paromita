@@ -1,0 +1,3 @@
+markdown: redcarpet
+baseurl: /Paromita
+exclude: ['README.md']
