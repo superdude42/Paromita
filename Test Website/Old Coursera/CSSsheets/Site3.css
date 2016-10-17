@@ -1,0 +1,38 @@
+body{
+
+}
+}
+
+h1{
+	color: brown;
+	font-family:cursive;
+	font-size: 300%;
+	background-color: rgb(25, 200, 100);
+	text-align: center;
+
+}
+
+p{
+	color: blue;
+	font-family: cursive;
+	overflow: scroll;
+}
+
+span{
+	height: 50px;
+	width: 25px;
+	background-color: rgb(75, 100,50);
+	
+	
+}
+
+div{
+	height: 50px;
+	width: 50%;
+	background-color: rgb(150, 25, 50);
+
+}
+
+img{
+	border: 4px, 8px;
+}

@@ -1,0 +1,61 @@
+body{
+	background: rgb(10,100,80);
+	background: url("C:/Users/tearsofacid/Desktop/Test Website/Pic1.jpg");
+}
+h1{
+	color: rgb(250,10,150);
+	font-size: 100px;
+}
+
+img{
+	width: 45%;
+	display: inline-block;
+	transform: scale(1.5, 1.5);
+}
+ul{
+	font-size: 10px;
+	text-align: center;
+	display: inline-block;
+	float: center;
+	list-style-type: square;
+}
+img{
+	width: 90px;
+}
+a:hover{
+	color: rgb(200,0,200);
+
+}
+a:active{
+	border: 20px;
+}
+#Symptoms{
+	color: rgb(100,100,60);
+}
+.par{
+	font-size: 25px;
+	font-family: cursive;
+}
+div{
+color: rgb(0, 0, 150);
+width: 50%;
+margin: 2%;
+border-radius: 5px;
+clear: both;
+transition-property: color, width, border-radius, rotate;
+transition-duration: .5s;
+transition-delay: .5s;
+
+}
+div:hover{
+color: rgb(80, 60, 95);
+width: 75%;
+border-radius: 10px;
+transform: rotate(180deg);
+}
+
+button{
+	display: inline-block;
+	size: 100px;
+}
+

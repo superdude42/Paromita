@@ -1,0 +1,75 @@
+
+table.cal{
+	color: rbg(25, 100, 50);
+	border-spacing: 0;
+	border: 2px solid red;
+	-webkit-border-radius: 0 0 ;
+	border-radius: 0 0 25px 25px;
+}
+
+tr:nth-child(odd){
+	background: rgb(180, 180, 180);
+}
+tr:nth-child(even){
+	background: rgb(220, 180, 220);
+}
+tr:last-child{
+	-webkit-border-radius: 25px 25px 0 0 ;
+	border-radius: 25px 25px 0 0 ;
+}
+tr:last-child>td:first-child{
+	-webkit-border-radius: 0 0 0 25px ;
+	border-radius: 0 0 0 25px ;
+}
+tr:last-child>td:last-child{
+	-webkit-border-radius: 0 0 25px 0  ;
+	border-radius: 0 0 25px 0 ;
+}
+.cal caption {
+	text-transform: uppercase;
+	background-color: #666666
+	color: rgb(65, 120, 100);
+	-webkit-border-radius: 25px 25px,0, 0;
+}
+span {
+	display: block;
+	text-align: center;
+	color: rgb(0 120 0);
+	visibility: hidden;
+}
+td:active>span{
+	visibility: visible;
+}
+th{
+	text-align: center;
+
+}
+.cal td{
+	width: 80px;
+	height: 80px;
+	vertical-align: top;
+}
+nav{
+	box-sizing: border-box;
+	border: 3px solid rgb(50, 10, 110)
+	background-color: rgb(90,45,30);
+	display: inline-block;
+	width: 50%;
+	float: left;
+	min-width: 100px;
+	margin-right: 10px;
+	height: 100%;
+	overflow: auto;
+}
+nav a{
+	display: block;
+	line-height: 45px;
+	height: 45px;
+	color: rgb(50, 40, 190);
+	background-color: none;
+	text-decoration: none;
+	background-image: url(C:\Users\tearsofacid\Desktop\Test Website\Pic8.jpg);
+	background-color: rgb(30,45,105)
+	padding-left: 40px;
+	margin: 10px, 0, 10px, 5px;
+}

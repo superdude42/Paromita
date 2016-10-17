@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Forms!</title>
+	<script type="text\javascript" src="C:\Users\tearsofacid\Desktop\Test Website\Javascript\FormJS.js"></script>
+</head>
+<body>
+<form>
+	<label for="name">Name</label>
+	<input type="text" id="name" name="name"><br/>
+	<label>Email: <input type="email" name="email"></label><br/>
+	<label>B-day<input type="date" id="birth" value="birth" =""></label><br/>
+
+  <label>Preferred email address:
+  		<input type="email" id="email_addr" name="email1" value = "me@me.com" required></label>
+
+  	<label>Repeat email address:
+  		<input type="email" id="email_repeat" name="email2" required onchange="return check()"></label>
+
+  <input type = 'submit' value = "Confirm Emails!" onclick = "return check();">
+</form>
+
+</body>
+</html>

@@ -1,0 +1,22 @@
+
+div {
+	background-color: rgb(25, 60, 85);
+	font-size: 20px;
+	text-align: center;
+}
+
+.poop {
+	list-style: none;
+}
+
+li:active{
+	background-color: rgb(100, 160, 40);
+	font-size: 90px;
+	
+}
+
+li:hover {
+	background-color: rgb(25, 60, 85);
+	font-size: 20px;
+	text-align: right;
+}

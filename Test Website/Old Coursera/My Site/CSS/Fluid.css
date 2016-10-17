@@ -1,0 +1,43 @@
+
+main{
+	width:95%;
+	margin: 0 auto;
+}
+.column{
+	width: 30%;
+	display: inline-block;
+	float: left;
+	margin-left: 2%;
+}
+html, body{
+	background-color: gray;
+}
+body {
+	margin: 0;
+	font-family: Arial, Helvetica;
+	font-size: 13px;
+	font-weight: normal;
+}
+h1 {
+	font-size: 15vh;
+	margin: 0;
+	padding: 0;
+}
+
+h1, h2{
+	text-align: center;
+	text-transform: uppercase;
+}
+div > img {
+  width: auto;
+  height : auto;
+  max-height: 40%;
+  max-width: 40%;
+  align-content: center;
+}
+
+@media only screen and (max-width: 500px){
+	body{
+		background-color: lightblue;
+	}
+}

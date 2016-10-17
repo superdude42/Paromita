@@ -1,0 +1,70 @@
+#top{
+	display: inline-block;
+	background-color: rgb(255, 255, 255);
+	text-decoration-color: black;
+	width: 100%;
+	height: 10%;
+	text-align: center;
+	font-size: 50px;
+	overflow: auto;
+	border: 2px solid;
+
+}
+.D1{
+	content: url(C:\Users\tearsofacid\Desktop\Test Website\My Site\Bangladesh\B1.jpg);
+	display: inline;
+	border: 2px solid black;
+	height: 30%;
+	width: 30%;
+	position: absolute;
+	left: 10%;
+	right: 60%;
+	top: 15%;
+	bottom: 55%;
+}
+.D2{
+	content: url(C:\Users\tearsofacid\Desktop\Test Website\My Site\Bangladesh\B2.jpg);
+	display: inline;
+	border: 2px solid black;
+	height: 30%;
+	width: 30%;
+	position: absolute;
+	left: 60%;
+	right: 10%;
+	top: 15%;
+	bottom: 55%;
+}
+.D3{
+	content: url(C:\Users\tearsofacid\Desktop\Test Website\My Site\Bangladesh\B3.jpg);
+	display: inline;
+	border: 2px solid black;
+	height: 30%;
+	width: 30%;
+	position: absolute;
+	left: 10%;
+	right: 60%;
+	top: 55%;
+	bottom: 10%;
+}
+.D4{
+	content: url(C:\Users\tearsofacid\Desktop\Test Website\My Site\Bangladesh\B4.jpg);
+	display: inline;
+	border: 2px solid black;
+	height: 30%;
+	width: 30%;
+	position: absolute;
+	left: 60%;
+	right: 10%;
+	top: 55%;
+	bottom: 10%;
+
+}
+div > img {
+  width: auto;
+  height : auto;
+  max-height: 100%;
+  max-width: 100%;
+}
+
+
+

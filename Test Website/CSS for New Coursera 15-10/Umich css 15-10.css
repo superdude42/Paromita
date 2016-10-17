@@ -1,0 +1,33 @@
+nav.pix{
+	border-style: groove;
+	border-radius: 25px;
+	text-align: center;
+}
+
+.ninja{
+	background-color: green;
+}
+
+
+@media screen and (min-width: 600px){
+	.ninja{
+	background-color: blue;
+}
+}
+
+
+@media screen and (min-width: 720px){
+	.ninja{
+	background-color: red;
+	
+}
+}
+
+a:hover {
+background: url(file:///C:/Users/tearsofacid/Desktop/Test%20Website/ninja%20girl%201.jpg);
+}
+
+a:active {
+color: green;
+}
+
